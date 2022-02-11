@@ -50,13 +50,13 @@
  # 4 W's and 1 H
 
  ## Who
- Anyone can use this by accessing its main menu and need to choose there  required field of choice and need to enter the value to get there desired output.
+ * Anyone can use this by accessing its main menu and need to choose there  required field of choice and need to enter the value to get there desired output.
 
  ## What
- It's an unit converter utility to convert units, whic will hwpl user to converts units from one form to another form  .
+ * It's an unit converter utility to convert units, whic will hwpl user to converts units from one form to another form  .
 
  ## When
- It is available to user 24X7, 365 days without any issues and works infinite times.
+ * It is available to user 24X7, 365 days without any issues and works infinite times.
 
  ## Where
  * We can use this at different palces and this is platform independent, it will work in any platform.
