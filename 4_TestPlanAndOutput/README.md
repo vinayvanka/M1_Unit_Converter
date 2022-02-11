@@ -134,4 +134,6 @@ Converted value is : 10000.00
 Enter the value that you want to convert : 12
 
 
-Converted value is : 1.000000Saving
+Converted value is : 1.00
+
+
