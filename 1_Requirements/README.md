@@ -31,15 +31,20 @@
  It's an unit converter utility to convert units.
 
  ## When
- It is available to user 24X7, 365 days .
+ It is available to user 24X7, 365 days.
 
  ## Where
- It is available in various places.
+ It can be accessable from everywhere.
 
  ## How
  This application was developed in C language to avoid the complexity and to keep it simple. 
 
 
  ## High Level Requirements
- *data entry
+ * Need to convert length of different scale 
+ - user have to choose the conversion factor that user wants to convert user value to user's desired value
+ * All basic conversions 
+ - user need to access all type of basic conversion factors 
+
  ## Low level Requirements
+ * Good and clean user interface
