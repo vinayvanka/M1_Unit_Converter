@@ -77,7 +77,7 @@
 |------|  ------------|
 |LLR_1|   limited attempts |
 |LLR_2|   Clean UI         |
-|LLR_3|   User friendly    |
+|LLR_3|   User friendly    | 
 
 
 
