@@ -43,8 +43,8 @@
 
  ## Threats
   
- * 
- * ATM frauds and illegal things
+ * limited  access
+ 
   
 
 
@@ -68,17 +68,17 @@
 # High Level Requirements
 |HLR|     Description  |
 |------|  --------------|
-|HLR_1|   Accurate value
-|HLR_2|   Many conversion factors
-|HLR_3|   Basic conversions
+|HLR_1|   Accurate value     |
+|HLR_2|   conversion factors |
+|HLR_3|   Basic conversions  |
 
             
 # Low Level Requirements
 |LLR|     Description |
 |------|  ------------|
-|LLR_1|   limited attempts.
-|LLR_2|   Clean UI
-|LLR_3|   collect cash and receipt
+|LLR_1|   limited attempts |
+|LLR_2|   Clean UI         |
+|LLR_3|   User friendly    |
 
 
 
