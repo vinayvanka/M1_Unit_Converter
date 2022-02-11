@@ -18,7 +18,7 @@
  -   EasierAccess
  -   Low Cost
 
- ## Defining our system
+
 
 
 # SWOT ANALYSIS
@@ -43,7 +43,7 @@
 
  ## Threats
   
- * limited  access
+ * limited  access.
   
 
 
