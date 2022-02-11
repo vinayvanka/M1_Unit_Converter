@@ -20,8 +20,34 @@
 
  ## Defining our system
 
- ## SWOT Analysis
- ![SWOT](https://github.com/vinayvanka/M1_Unit_Converter_Util/blob/main/1_Requirements/unit-converter.jpeg)
+
+# SWOT ANALYSIS
+
+  ![SWOT](https://github.com/vinayvanka/M1_Unit_Converter_Util/blob/main/1_Requirements/unit-converter.jpeg)
+
+ ## Strengths
+  
+ * We can access it from anywhere.
+ * It makes calculations easy.
+ * It is available for 24/7.
+  
+ ## Weaknesses
+   
+ * Limeted conversions.
+ * Needed graphical user interface.
+   
+ ## Opportunities
+  
+ * It can be used in different work places and by different needs. (example: physics lab, calculating distance from one form to another etc.) 
+ * User friendly.
+
+ ## Threats
+  
+ * 
+ * ATM frauds and illegal things
+  
+
+
  # 4 W's and 1 H
 
  ## Who
@@ -39,16 +65,21 @@
  ## How
  This application was developed in C language to avoid the complexity and to keep it simple. 
 
+# High Level Requirements
+|HLR|     Description  |
+|------|  --------------|
+|HLR_1|   Accurate value
+|HLR_2|   Many conversion factors
+|HLR_3|   Basic conversions
 
- ## High Level Requirements
+            
+# Low Level Requirements
+|LLR|     Description |
+|------|  ------------|
+|LLR_1|   limited attempts.
+|LLR_2|   Clean UI
+|LLR_3|   collect cash and receipt
 
- * Need to convert length of different scale 
- - user have to choose the conversion factor that user wants to convert user value to user's desired value
- * All basic conversions 
- - user need to access all type of basic conversion factors 
-
- ## Low level Requirements
- * Good and clean user interface
 
 
 
