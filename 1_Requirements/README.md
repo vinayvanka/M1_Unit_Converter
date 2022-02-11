@@ -41,7 +41,7 @@
 
 
  ## High Level Requirements
-<<<<<<< HEAD
+
  * Need to convert length of different scale 
  - user have to choose the conversion factor that user wants to convert user value to user's desired value
  * All basic conversions 
@@ -49,7 +49,7 @@
 
  ## Low level Requirements
  * Good and clean user interface
-=======
- *data entry
- ## Low level Requirements
->>>>>>> 42f49f3a9edfc06291c17fc6f1693eb5fefbd22b
+
+
+
+
