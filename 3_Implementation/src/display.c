@@ -1,33 +1,33 @@
 #include<stdio.h>
-#include<math.h>
-///////////////////////////////////////////////////////////////// MAIN-MENU //////////////////////////////////////////////////////////////////////// 
-int show_main_menu(){      
 
 
-int menu_num=0;
+
+int display_main_menu(void)    // DISPLAY MAIN MENU TO USER
+{
+int main_menu;
+
 printf("                           Welcome to Unit Converter Utility\n");
 printf("\n************************************ MAIN MENU *****************************************\n\n");
 printf("\n1-LENGTH     (1)\n");
 printf("\n2-WEIGHT     (2)\n");
 printf("\n3-TEMPRATURE (3)\n");
-printf("\n\n\n\n\n Enter your choice ?(numeric value only) ");
+printf("\n\n\n\n\n Enter your choice? (numeric value only) : ");
 
-scanf("%d",&menu_num);
-while(menu_num>6 || menu_num<1){
+scanf("%d",&main_menu);
+while(main_menu>6 || main_menu<1){
 printf("\n YOU ENTERED WRONG INPUT TRY AGAIN : ");
-scanf("%d",&menu_num);
+scanf("%d",&main_menu);
 }
 
-return menu_num;
+return main_menu;
+}
 
-}              
-////////////////////////////////////////////////////////////////// END OF MAIN-MENU //////////////////////////////////////////////////////////////////
+int display_length_menu1(void)     // DISPLAY THE LENGTH MENU 1 TO USER
+{
+
+int length_menu;
 
 
-
-///////////////////////////////////////////////////////////////// SHOW LENGTH MENU 1 ////////////////////////////////////////////////////////////////////
-int show_length_menu1(){        
-int user_input;
 
 printf("\n************************************************ LENGTH  *******************************************\n\n");
 printf("\n***************************************** METRIC UNITS CONVERT FROM ********************************\n\n");
@@ -36,92 +36,101 @@ printf("\n 4-METER TO KILOMETER               5-METER TO CENTIMETER             
 printf("\n 7-CENTIMETER TO KILOMETER          8-CENTIMETER TO METER                 9-CENTIMETER TO MILLIMETER\n");
 printf("\n10-MILLIMETER TO KILOMETER         11-MILLIMETER TO METER                12-MILLIMETER TO CENTIMETER\n");
 printf("\n \n                                      press 0 for MORE OPTIONS                                        \n");
-printf("\n\n\n Enter your choice ?(numeric value only)");
-
-scanf("%d",&user_input);
-while(user_input>12 || user_input<0){
+printf("\n\n\n Enter your choice ?(numeric value only) :   ");
+scanf("%d",&length_menu);
+while(length_menu>12 || length_menu<0){
 printf("\n YOU ENTERED WRONG INPUT TRY AGAIN : ");
-scanf("%d",&user_input);
-}
-return user_input;
- 
+scanf("%d",&length_menu);
 }
 
-//////////////////////////////////////////////////////////////// END LENGTH MENU 1 ////////////////////////////////////////////////////////////////////////
+    return length_menu;
+}
 
 
 
-/////////////////////////////////////////////////////////////// SHOW LENGTH MENU 2 /////////////////////////////////////////////////////////////////////
-int show_length_menu2(){
+int display_length_menu2(void){
 
-int user_input1;
+    int length_menu;
 
-printf("\n****************************** IMPERIAL UNITS CONVERT FROM ********************************\n\n");
+printf("\n******************************************** LENGTH  *******************************************\n\n");
+printf("\n********************************** IMPERIAL UNITS CONVERT FROM ********************************\n\n");
 printf("\n1-INCH to FEET                       2-FOOT to INCH                           3-YARD t0 CENT\n");
 printf("\n4-CENT to YARD        \n");
-printf("\n\n\n Enter your choice ?(numeric value only)");
-scanf("%d",&user_input1);
 
-while(user_input1>4 || user_input1<1){
+printf("\n\n\n Enter your choice ?(numeric value only) : ");
+scanf("%d",&length_menu);
+
+
+while(length_menu>4 || length_menu<1){
 printf("\n YOU ENTERED WRONG INPUT TRY AGAIN : ");
-scanf("%d",&user_input1);
+scanf("%d",&length_menu);
+    }
+
+
+    return length_menu;
 }
-return user_input1;
-}
 
 
+int display_weight_menu(void)      /////  
+{
 
-/////////////////////////////////////////////////////////////// END LENGTH MENU 2 /////////////////////////////////////////////////////////////////////
+int weight_menu;
 
-
-////////////////////////////////////////////////////////////// SHOW WEIGHT MENU ///////////////////////////////////////////////////////////////////////
-
-int show_weight_menu(){
-
-
-int user_input1;
 
 printf("\n************************************************ WEIGHT *************************************************\n\n");
 printf("\n1-KILOGRAM TO GRAM                       2-GRAM TO KILOGRAM                           3-KILOGRAM TO POUND\n");
 printf("\n4-POUND TO KILOGRAM        \n");
 printf("\n\n\n Enter your choice ?(numeric value only)");
-scanf("%d",&user_input1);
+scanf("%d",&weight_menu);
 
-while(user_input1>4 || user_input1<1){
+while(weight_menu>4 || weight_menu<1){
 printf("\n YOU ENTERED WRONG INPUT TRY AGAIN : ");
-scanf("%d",&user_input1);
-}
-return user_input1;
+scanf("%d",&weight_menu);
 }
 
 
-////////////////////////////////////////////////////////////// END WEIGHT MENU ///////////////////////////////////////////////////////////////////////
+return weight_menu;
+
+}
 
 
+int display_temprature_menu(void){
 
-///////////////////////////////////////////////////////////// TEMPRATURE MENU ///////////////////////////////////////////////////////////////////////
+int temprature_menu;
 
-int show_temprature_menu(){
 
-int user_input1;
-
-printf("\n************************************************ TEMPRATURE *************************************************\n\n");
-printf("\n 1-CELCIUS TO FAHRENHEIT\n 2-FAHRENHEIT TO CELCIUS\n");
-
+printf("\n************************************************ WEIGHT *************************************************\n\n");
+printf("\n1-KILOGRAM TO GRAM                       2-GRAM TO KILOGRAM                           3-KILOGRAM TO POUND\n");
+printf("\n4-POUND TO KILOGRAM        \n");
 printf("\n\n\n Enter your choice ?(numeric value only)");
-scanf("%d",&user_input1);
+scanf("%d",&temprature_menu);
 
-while(user_input1>4 || user_input1<1){
+while(temprature_menu>4 || temprature_menu<1){
 printf("\n YOU ENTERED WRONG INPUT TRY AGAIN : ");
-scanf("%d",&user_input1);
-}
-return user_input1;
-
+scanf("%d",&temprature_menu);
 }
 
+return temprature_menu;
+
+}
 
 
-///////////////////////////////////////////////////////////// END TEMPRATURE MENU ///////////////////////////////////////////////////////////////////
 
+float display_value(void)
+{
+
+float value;
+
+ printf("\n\nEnter the value that you want to convert : ");
+ scanf("%f",&value);
+
+return value;
+}
+
+void display_answer(float ans){
+
+printf("\n\nConverted value is : %f",ans);
+
+}
 
 

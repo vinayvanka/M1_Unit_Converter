@@ -1,51 +1,65 @@
 #include<stdio.h>
-#include<math.h>
 #include"display.h"
-#include"calculations.h"
+#include"calculate.h"
 
-double length_menu(int list);
+
+extern int test(void);
+
 int main(){
-    int menu;
- menu=show_main_menu();
- 
-switch (menu)
+test();
+int main_menu;
+main_menu=display_main_menu();
+int sub_menu;
+float value=0.0;
+float ans=0.0;
+
+
+switch (main_menu)
 {
-    case 1:{
-        int menu=show_length_menu1();
-        if(menu == 0){
-            menu=show_length_menu2();
-            double ans=length_menu2(menu);
-            printf("\n your answer : %lf", ans);
-            break;
+ case 1:{
+     sub_menu=display_length_menu1();
+     if(sub_menu == 0)
+        {
+            sub_menu=display_length_menu2();
+            value=display_value();
+            ans=calculate_length_menu2(sub_menu , value);
+            display_answer(ans);
         }
-        double ans=length_menu1(menu);
-        printf("\n your answer : %lf", ans);
-    }
-        break;
-    case 2:{
-        int menu=show_weight_menu();
-        double ans=weight_menu(menu);
-        printf("\n your answer : %lf", ans);
-        
+            else{
+            value=display_value();
+            ans=calculate_length_menu1(sub_menu , value);
+            display_answer(ans);
+            }
+            
+
+}
+     break;
+
+     case 2:{
+            int sub_menu=display_weight_menu();
+            value=display_value();
+            ans=calculate_weight_menu(sub_menu , value);
+            display_answer(ans);
     }
    
+         break;
+     case 3:{
+
+            sub_menu=display_temprature_menu();
+            value=display_value();
+            ans=calculate_temprature_menu(sub_menu , value);
+            display_answer(ans);
+
+     }
         break;
-    case 3:{
 
-        int menu=show_temprature_menu();
-        double ans=temprature_menu(menu);
-        printf("\n your answer : %lf", ans);
-
-    }
-        break;
-    
-
-default:
-    break;
+ default:
+     break;
+}
 
 }
 
 
 
 
-}
+

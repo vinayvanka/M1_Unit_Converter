@@ -1,5 +1,9 @@
-int show_main_menu();
-int show_length_menu1();
-int show_length_menu2();
-int show_weight_menu();
-int show_temprature_menu();
+int display_main_menu(void);
+int display_length_menu1(void);
+int display_length_menu2(void);
+float display_value(void);
+int display_weight_menu(void);
+int display_temprature_menu(void);
+void display_answer(float ans);
+
+
