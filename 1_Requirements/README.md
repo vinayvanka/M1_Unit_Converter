@@ -23,7 +23,7 @@
 
 # SWOT ANALYSIS
 
-  ![SWOT](https://github.com/vinayvanka/M1_Unit_Converter_Util/blob/main/1_Requirements/unit-converter.jpeg)
+  ![SWOT](https://github.com/vinayvanka/M1_Unit_Converter_Util/blob/main/1_Requirements/SWOT.jpg)
 
  ## Strengths
   
