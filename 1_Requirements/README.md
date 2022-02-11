@@ -44,24 +44,23 @@
  ## Threats
   
  * limited  access
- 
   
 
 
  # 4 W's and 1 H
 
  ## Who
- Anyone can use this.
+ Anyone can use this by accessing its main menu and need to choose there  required field of choice and need to enter the value to get there desired output.
 
  ## What
- It's an unit converter utility to convert units.
+ It's an unit converter utility to convert units, whic will hwpl user to converts units from one form to another form  .
 
  ## When
- It is available to user 24X7, 365 days.
+ It is available to user 24X7, 365 days without any issues and works infinite times.
 
  ## Where
- It can be accessable from everywhere.
-
+ * We can use this at different palces and this is platform independent, it will work in any platform.
+ * It can be used in sintefic calculators or in maths or physics labs. 
  ## How
  This application was developed in C language to avoid the complexity and to keep it simple. 
 
