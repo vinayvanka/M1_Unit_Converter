@@ -16,6 +16,8 @@ Build | Code Quality | Unity | Git Inspector
 [![STATIC ANALYSIS](https://github.com/vinayvanka/M1_Unit_Converter_Util/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/vinayvanka/M1_Unit_Converter_Util/actions/workflows/cppcheck.yml)
 ![code quality score](https://api.codiga.io/project/30943/score/svg)
 ![code grade](https://api.codiga.io/project/30943/status/svg)
+[![Unit Testing](https://github.com/vinayvanka/M1_Unit_Converter_Util/actions/workflows/test.yml/badge.svg)](https://github.com/vinayvanka/M1_Unit_Converter_Util/actions/workflows/test.yml)
+[![Build](https://github.com/vinayvanka/M1_Unit_Converter_Util/actions/workflows/makefile.yml/badge.svg)](https://github.com/vinayvanka/M1_Unit_Converter_Util/actions/workflows/makefile.yml)
 
 
 
