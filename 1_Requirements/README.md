@@ -21,7 +21,7 @@
  ## Defining our system
 
  ## SWOT Analysis
- ![SWOT]()
+ ![SWOT](https://github.com/vinayvanka/M1_Unit_Converter_Util/blob/main/1_Requirements/unit-converter.jpeg)
  # 4 W's and 1 H
 
  ## Who
