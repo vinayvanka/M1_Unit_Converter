@@ -1,3 +1,14 @@
+/**
+ * @file main.c
+ * @author vanka vinaya kumar (you@domain.com)
+ * @brief THIS IS THE MAIN FILE WHICH INCYULED THE DISPLAY AND CALCULATIONS HEADER FILE  IN THIS IT WILL CALL THE NECERARY FUNCTIONS WHEN REQUIRED
+ * @version 0.1
+ * @date 2022-02-11
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #include<stdio.h>
 #include"display.h"
 #include"calculate.h"

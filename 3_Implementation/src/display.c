@@ -1,3 +1,14 @@
+/**
+ * @file display.c
+ * @author vanka vinay kumar (you@domain.com)
+ * @brief  this file include all the functions whic are useful to communicate with user and to take user input and to show their output
+ * @version 0.1
+ * @date 2022-02-11
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #include<stdio.h>
 
 
@@ -48,7 +59,7 @@ scanf("%d",&length_menu);
 
 
 
-int display_length_menu2(void){
+int display_length_menu2(void){                 //DISPLAYS THE LENGTH MENU
 
     int length_menu;
 
@@ -71,7 +82,7 @@ scanf("%d",&length_menu);
 }
 
 
-int display_weight_menu(void)      /////  
+int display_weight_menu(void)      //DISPLAYS THE WEIGHT MENU
 {
 
 int weight_menu;
@@ -94,7 +105,7 @@ return weight_menu;
 }
 
 
-int display_temprature_menu(void){
+int display_temprature_menu(void){              //DISPLAYS THE TEMPRATURE MENU
 
 int temprature_menu;
 
@@ -116,7 +127,7 @@ return temprature_menu;
 
 
 
-float display_value(void)
+float display_value(void)                       // DISPLAYS VALUE
 {
 
 float value;
@@ -127,7 +138,7 @@ float value;
 return value;
 }
 
-void display_answer(float ans){
+void display_answer(float ans){                         //DISPLAY  ANSWER
 
 printf("\n\nConverted value is : %f",ans);
 

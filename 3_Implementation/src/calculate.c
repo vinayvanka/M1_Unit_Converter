@@ -1,3 +1,13 @@
+/**
+ * @file calculate.c
+ * @author vanka vinaya kumar (you@domain.com)
+ * @brief ALL THE NECERARY CALCULATIOS ARE HERE FOR UNIT CALCULATOR UTILITY
+ * @version 0.1
+ * @date 2022-02-11
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include<stdio.h>
 
 
