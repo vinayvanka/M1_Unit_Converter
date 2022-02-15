@@ -6,7 +6,7 @@
 
 
 
-## SDLC Activity Based Learning
+## PDLC Activity Based Learning
 
 
 |Code Grade|Code Quality Score|Code Quality|Unity Testing|Build|Static Analysis|
