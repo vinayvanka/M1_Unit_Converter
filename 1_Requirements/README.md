@@ -34,7 +34,7 @@
  ## Weaknesses
    
  * Limeted conversions.
- * Needed graphical user interface.
+ * Needs graphical user interface.
    
  ## Opportunities
   
