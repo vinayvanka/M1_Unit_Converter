@@ -79,6 +79,3 @@
 |LLR_2|   Clean UI         |
 |LLR_3|   User friendly    | 
 
-
-
-
